@@ -1,0 +1,43 @@
+
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #630F0F;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
+
+body{
+	background: url(DoomDemon2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@font-face{
+	font-family: 'fuentedoom';
+	src: url(DoomFonts.ttf);
+}
+
+#fuente-doom{
+	font-family: 'fuentedoom';
+	font-size: 48px;
+}
+
